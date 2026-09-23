@@ -92,7 +92,7 @@ div[data-testid="stDataFrame"] {
 # ============================================================
 
 table = pd.read_html(
-    "data/ASHRAE_Service_Life_Data.xls",
+    "./data/ASHRAE_Service_Life_Data.xls",
     header=7
 )[0]
 
